@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match the snapshot with all the data passed in correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    school="BEAR CREEK"
+    yearlyStats={
+        Object {
+            "2004": 0.3,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2
+          className="school"
+>
+          BEAR CREEK
+</h2>,
+        Array [
+          <li
+            className="less-than"
+>
+            2004
+            : 
+            0.3
+</li>,
+        ],
+      ],
+      "className": "school-card",
+      "id": "BEAR CREEK",
+      "onClick": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "BEAR CREEK",
+          "className": "school",
+        },
+        "ref": null,
+        "rendered": "BEAR CREEK",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "2004",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2004",
+            ": ",
+            0.3,
+          ],
+          "className": "less-than",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2004",
+          ": ",
+          0.3,
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2
+            className="school"
+>
+            BEAR CREEK
+</h2>,
+          Array [
+            <li
+              className="less-than"
+>
+              2004
+              : 
+              0.3
+</li>,
+          ],
+        ],
+        "className": "school-card",
+        "id": "BEAR CREEK",
+        "onClick": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BEAR CREEK",
+            "className": "school",
+          },
+          "ref": null,
+          "rendered": "BEAR CREEK",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "2004",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2004",
+              ": ",
+              0.3,
+            ],
+            "className": "less-than",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2004",
+            ": ",
+            0.3,
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

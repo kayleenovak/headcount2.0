@@ -1,0 +1,12 @@
+.stat-card {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  background: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  margin: 0 20px 0 20px;
+}

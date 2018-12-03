@@ -1,0 +1,34 @@
+.school-card {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px;
+  background: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.school {
+  font-size: 1.2em;
+  pointer-events: none;
+  margin: 0 0 20px 0;
+}
+
+.greater-than {
+ color: blue;
+ pointer-events: none;
+}
+
+.less-than {
+  color: red;
+  pointer-events: none;
+}
+
+.selected {
+  border: 4px solid grey;
+}
+
+.unselected {
+  
+}
