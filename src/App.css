@@ -4,8 +4,10 @@
   grid-template-rows: 100px 1fr;
   text-align: center;
   background: #FAFFAC;
+  
 }
 
 .app-name {
   margin: 0;
+  font-size: 3em;
 }

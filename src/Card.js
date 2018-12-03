@@ -8,7 +8,7 @@ const Card = (props) => {
   })
 
   return(
-    <div className='school-card' id={ props.school } onClick={ props.setComparedSchools }>
+    <div className={props.selectedCard === 'selected' ? 'selected' : 'unselected'} id={ props.school } onClick={ props.setComparedSchools }>
       <h2 className='school'>{ props.school }</h2>
         { yearStats }
     </div>

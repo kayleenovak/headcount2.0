@@ -6,13 +6,7 @@ import './CardContainer.css';
 const CardContainer = ({ data, schools, filteredSchools, schoolsForComparison, comparedSchools, comparison, setComparedSchools, removeComparedSchool }) => {
   const allSchools = Object.keys(filteredSchools).map(school => {
     let yearlyStats = data.stats[school].stats
-    const selectedCard = (school) => {
-      if(schoolsForComparison.includes(school)) {
-        return 'selected'
-      } else {
-        return 'unselected'
-      }
-    }
+    const selectedCard = schoolsForComparison.includes(school) ? 'selected' : 'unselected'
     return <Card key={ school } yearlyStats={ yearlyStats } school={ school } setComparedSchools={ setComparedSchools } selectedCard={ selectedCard }/>
   })
 
