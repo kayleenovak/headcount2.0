@@ -4,16 +4,16 @@ export default class DistrictRepository {
   }
 
   fetchData(data) {
-    const locations = {}
-    data.forEach(currentSchool => {
-      if(!locations[currentSchool.Location]) {
+    const locations = data.reduce((acc, currentSchool) => {
+      if(!acc[currentSchool.Location]) {
         currentSchool = currentSchool.Location.toUpperCase()
-        locations[currentSchool] = {
+        acc[currentSchool] = {
           location: currentSchool,
           stats: {}
         }
       }
-    })
+      return acc
+    }, {})
     Object.keys(locations).forEach(location => {
       data.forEach(year => {
         if(year.Location.toUpperCase() === location && isNaN(year.Data)) {
